@@ -1,0 +1,56 @@
+.nav-display{
+    display: none;
+  }
+  .nav-display2{
+    display: block;
+  }
+  .brand{
+    font-size: 30px;
+    color: #fc6603;
+    font-family: Coiny;
+  }
+  .brand-2{
+    font-size: 30px;
+    color: #5e2906;
+    font-family: Coiny;
+  }
+  img{
+      display: none;
+  }
+  @media all and (max-width: 720px){
+    .nav-display{
+      display: block;
+      position: absolute;
+      background: white;
+      width: 100vw;
+    }
+    .nav-display2{
+      display: none;
+    }
+    img{
+      display: none;
+    }
+  }
+
+  .card-body{
+    flex: 1;
+    display: flex;
+  }
+  .bott{
+    flex: 1;
+  }
+  .card-header{
+    flex: 1;
+    display: flex;
+  }
+  .two{
+    flex: 1;
+  }
+  th, td{
+    padding: 12px;
+  }
+  @media all and (max-width: 720px){
+    .mychart{
+      display: none;
+    }
+  }

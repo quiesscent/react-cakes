@@ -1,0 +1,10 @@
+.top-section, .order{
+    flex: 1;
+    display: flex;
+}
+.sect-2{
+    flex: 1;
+}
+.sect1{
+    flex: 1.5;
+  }
