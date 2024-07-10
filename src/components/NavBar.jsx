@@ -28,8 +28,14 @@ const NavBar = () => {
         </li>
       </ul>
       <ul class="navbar-nav mb-lg-0 nav-display2">
-        <li class="nav-item">
-          <a class="nav-link " aria-current="page" href="#">Account</a>
+        <li class="nav-item dropdown dropstart nav-display2">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Account
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><a class="dropdown-item" href="/logout">Logout</a></li>
+          </ul>
         </li>
       </ul>
     </div>

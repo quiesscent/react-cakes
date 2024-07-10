@@ -15,8 +15,6 @@ const MainLayout = () => {
             <li class="nav-right"><a href="/sales" class="nav-right">Sales</a></li>
             <li class="nav-right"><a href="/stock" class="nav-right">Stock</a></li>
             <li class="nav-right"><a href="/inventory" class="nav-right">Inventory</a></li>
-            <li class="nav-right"><a href="/report_in" class="nav-right">Inventory Report</a></li>
-            <li class="nav-right"><a href="/report_sl" class="nav-right">Sales Report</a></li>
             <li class="nav-right"><a href="/orders" class="nav-right">Orders</a></li>
             <li class="nav-right"><a href="/pos" class="nav-right">POS</a></li>
           </ul>

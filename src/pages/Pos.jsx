@@ -5,32 +5,121 @@ const Pos = () => {
   return (
     <>
     <div class="top-section container">
-  <div class="sect-1">
-    <Link to="" class="btn btn-primary">View Orders</Link>
-    <Link to="" class="btn btn-secondary">Checkout</Link>
-  </div>
 </div>
 <div class="container">
 	<div class="top-section mt-5">
 		<div class="sect1">
-			<h4> Orders List </h4>
-			<ol class="list-group list-group-flush list-group-numbered">
-			  <li class="list-group-item"><br/>
-			  	<div class="order">
-				  	<div class="sect">
-				  	Susan Kamau <br/>
-				  	Jomatech Technologies <br/>
-				  	Black Forest Cake 4KG <br/>
-				  	Cost <br/>
-				  	Paid <br/>
-				  	</div>
-				  	<div class="sect2" align="right">
-				  		Status<br/>
-				  		Cooking <i class="bx bx-bowl-hot" style={{color:'red'}}></i><br/>
-				  	</div>
-			  	</div>
-			  </li>
-			</ol>
+			<h4> Product List</h4>
+			<table class="table table-hover">
+				<thead>
+				  <tr>
+					<th scope="col">#</th>
+					<th scope="col">Product</th>
+					<th scope="col">Code</th>
+					<th scope="col">Quantity</th>
+					<th scope="col">Category</th>
+					<th scope="col">Status</th>
+				  </tr>
+				</thead>
+				<tbody>
+				<tr>
+					<th scope="row">1</th>
+					<td>Black Forest</td>
+					<td>003</td>
+					<td>4</td>
+					<td>Cakes</td>
+					<td>Danger Zone</td>
+				  </tr>
+				  <tr>
+					<th scope="row">2</th>
+					<td>Sponge Cake</td>
+					<td>003</td>
+					<td>4</td>
+					<td>Cakes</td>
+					<td>Danger Zone</td>
+				  </tr>
+				  <tr>
+					<th scope="row">3</th>
+					<td>Angel Food Cake</td>
+					<td>001</td>
+					<td>4</td>
+					<td>Cakes</td>
+					<td>Out of Stock</td>
+				  </tr>
+				  <tr>
+					<th scope="row">4</th>
+					<td>Chiffon Cake</td>
+					<td>001</td>
+					<td>4</td>
+					<td>Cakes</td>
+					<td>Available</td>
+				  </tr>
+				  <tr>
+					<th scope="row">5</th>
+					<td>Bundt Cake</td>
+					<td>001</td>
+					<td>4</td>
+					<td>Cakes</td>
+					<td>Available</td>
+				  </tr>
+				  <tr>
+					<th scope="row">6</th>
+					<td>Fruit Cake</td>
+					<td>001</td>
+					<td>4</td>
+					<td>Cakes</td>
+					<td>Available</td>
+				  </tr>
+				  <tr>
+					<th scope="row">7</th>
+					<td>Carrot Cake</td>
+					<td>001</td>
+					<td>4</td>
+					<td>Cakes</td>
+					<td>Available</td>
+				  </tr>
+				  <tr>
+					<th scope="row">8</th>
+					<td>Red Velvet Cake</td>
+					<td>001</td>
+					<td>4</td>
+					<td>Cakes</td>
+					<td>Available</td>
+				  </tr>
+				  <tr>
+					<th scope="row">9</th>
+					<td>Opera Cake</td>
+					<td>001</td>
+					<td>4</td>
+					<td>Cakes</td>
+					<td>Available</td>
+				  </tr>
+				  <tr>
+					<th scope="row">10</th>
+					<td>Black Forest Cake</td>
+					<td>001</td>
+					<td>4</td>
+					<td>Cakes</td>
+					<td>Available</td>
+				  </tr>
+				  <tr>
+					<th scope="row">11</th>
+					<td>Gateau St.Honore</td>
+					<td>001</td>
+					<td>4</td>
+					<td>Cakes</td>
+					<td>Available</td>
+				  </tr>
+				  <tr>
+					<th scope="row">12</th>
+					<td>Flour Chocolate Cake</td>
+					<td>001</td>
+					<td>4</td>
+					<td>Cakes</td>
+					<td>Available</td>
+				  </tr>
+				</tbody>
+			  </table>
 		</div>
 		&nbsp;&nbsp;
 		<div class="sect-2">
