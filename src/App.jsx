@@ -12,6 +12,8 @@ import Products from './pages/Products.jsx';
 import Sales from './pages/Sales.jsx'
 import Pos from './pages/Pos.jsx';
 import Orders from './pages/Orders.jsx';
+import Profile from './pages/Profile.jsx';
+import SalesReport from './pages/SalesReport.jsx';
 const App = () => {
   return (
       <Router>
@@ -21,10 +23,11 @@ const App = () => {
             <Route path='/creation' element={<Creation/>}/>
             <Route path='/employees' element={<Employees/>}/>
             <Route path='/inventory' element={<Inventory/>}/>
-            <Route path='/stock' element={<Stock/>}/>
             <Route path='/products' element={<Products/>}/>
             <Route path='/sales' element={<Sales/>}/>
+            <Route path='/sales_report' element={<SalesReport/>}/>
             <Route path='/orders' element={<Orders/>}/>
+            <Route path='/profile' element={<Profile/>}/>
             <Route path='/pos' element={<Pos/>}/>
           </Route>
         </Routes>

@@ -124,7 +124,7 @@ const Pos = () => {
 		&nbsp;&nbsp;
 		<div class="sect-2">
 			<h4>Create Order & Instant Checkout</h4>
-			<form class="row g-3" method="POST" action="{% url 'receipt' %}">
+			<form class="row g-3">
 			  <div class="col-md-12">
 			    <input type="text" class="form-control" placeholder="Customer Name" aria-label="" name="customername"/>
 			  </div>
@@ -144,7 +144,7 @@ const Pos = () => {
 			    <input type="number" class="form-control" placeholder="Discount" aria-label="" name="discount"/>
 			  </div>
 			  <div class="col-12 text-center">
-			    <button type="submit" class="btn btn" style={{backgroundColor: 'sandybrown'}}>Generate Receipt</button>
+			    <button type="button" class="btn btn" style={{backgroundColor: 'sandybrown'}}>Generate Receipt</button>
 			  </div>
 			</form>
 		</div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import '../assets/css/nav.css'
+import { Link } from 'react-router-dom'
 const NavBar = () => {
   return (
     <>
@@ -15,16 +16,16 @@ const NavBar = () => {
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
       <ul class="navbar-nav mb-lg-0 nav-display">
         <li class="nav-item">
-          <a class="nav-link " aria-current="page" href="#">Home</a>
-          <a class="nav-link " aria-current="page" href="#">Home</a>
-          <a class="nav-link " aria-current="page" href="#">Home</a>
-          <a class="nav-link " aria-current="page" href="#">Home</a>
-          <a class="nav-link " aria-current="page" href="#">Home</a>
-          <a class="nav-link " aria-current="page" href="#">Home</a>
-          <a class="nav-link " aria-current="page" href="#">Home</a>
-          <a class="nav-link " aria-current="page" href="#">Home</a>
-          <a class="nav-link " aria-current="page" href="#">Home</a>
-          <a class="nav-link " aria-current="page" href="#">Home</a>
+          <Link class="nav-link " aria-current="page" href="#">Home</Link>
+          <Link class="nav-link " aria-current="page" href="#">Home</Link>
+          <Link class="nav-link " aria-current="page" href="#">Home</Link>
+          <Link class="nav-link " aria-current="page" href="#">Home</Link>
+          <Link class="nav-link " aria-current="page" href="#">Home</Link>
+          <Link class="nav-link " aria-current="page" href="#">Home</Link>
+          <Link class="nav-link " aria-current="page" href="#">Home</Link>
+          <Link class="nav-link " aria-current="page" href="#">Home</Link>
+          <Link class="nav-link " aria-current="page" href="#">Home</Link>
+          <Link class="nav-link " aria-current="page" href="#">Home</Link>
         </li>
       </ul>
       <ul class="navbar-nav mb-lg-0 nav-display2">
@@ -33,8 +34,8 @@ const NavBar = () => {
             Account
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Profile</a></li>
-            <li><a class="dropdown-item" href="/logout">Logout</a></li>
+            <li><Link class="dropdown-item" to="/profile">Profile</Link></li>
+            <li><Link  class="dropdown-item" to="">Logout</Link></li>
           </ul>
         </li>
       </ul>

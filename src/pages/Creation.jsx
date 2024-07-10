@@ -10,7 +10,7 @@ const Creation = () => {
         <small>Create new product</small>
       </div>
       <div class="sect-2" align="right">
-        <a href="" class="btn btn-outline-success">Back to products</a>
+        {/* <a href="" class="btn btn-outline-success">Back to products</a> */}
       </div>
     </div>
 
@@ -63,7 +63,7 @@ const Creation = () => {
 
           </div>
           <div class="col-12 mb-3 text-center">
-            <button type="submit" class="btn ">Create</button>
+            <button type="button" class="btn ">Create</button>
           </div>
         </form>
       </div>
