@@ -27,7 +27,7 @@ const Orders = () => {
             <th scope="row">1</th>
             <td>Butter Cake</td>
             <td>001</td>
-            <td>001</td>
+            <td>Juin Juillet</td>
             <td>Cakes</td>
               <td>
               <div class="top-section">
@@ -44,7 +44,7 @@ const Orders = () => {
             <th scope="row">2</th>
             <td>Sponge Cake</td>
             <td>002</td>
-            <td>001</td>
+            <td>Aston Mark</td>
             <td>Cakes</td>
               <td>
               <div class="top-section">
@@ -61,7 +61,7 @@ const Orders = () => {
             <th scope="row">3</th>
             <td>Angel Food Cake</td>
             <td>003</td>
-            <td>001</td>
+            <td>Lucas Graham</td>
             <td>Cakes</td>
               <td>
               <div class="top-section">
@@ -78,7 +78,7 @@ const Orders = () => {
             <th scope="row">4</th>
             <td>Chiffon Cake</td>
             <td>004</td>
-            <td>001</td>
+            <td>James Wright </td>
             <td>Cakes</td>
               <td>
               <div class="top-section">
@@ -95,7 +95,7 @@ const Orders = () => {
             <th scope="row">5</th>
             <td>Bundt Cake</td>
             <td>005</td>
-            <td>001</td>
+            <td>Evans Kingston</td>
             <td>Cakes</td>
               <td>
               <div class="top-section">
@@ -112,7 +112,7 @@ const Orders = () => {
             <th scope="row">6</th>
             <td>Fruit Cake</td>
             <td>006</td>
-            <td>001</td>
+            <td>Quinton McNaughty</td>
             <td>Cakes</td>
               <td>
               <div class="top-section">
@@ -129,7 +129,7 @@ const Orders = () => {
             <th scope="row">7</th>
             <td>Carrot Cake</td>
             <td>007</td>
-            <td>001</td>
+            <td>Silloute Sean</td>
             <td>Cakes</td>
               <td>
               <div class="top-section">
@@ -146,7 +146,7 @@ const Orders = () => {
             <th scope="row">8</th>
             <td>Red Velvet Cake</td>
             <td>008</td>
-            <td>001</td>
+            <td>Angel Reese</td>
             <td>Cakes</td>
               <td>
               <div class="top-section">
@@ -163,7 +163,7 @@ const Orders = () => {
             <th scope="row">9</th>
             <td>Opera Cake</td>
             <td>009</td>
-            <td>001</td>
+            <td>Canon Cain</td>
             <td>Cakes</td>
               <td>
               <div class="top-section">
@@ -180,7 +180,7 @@ const Orders = () => {
             <th scope="row">10</th>
             <td>Black Forest Cake</td>
             <td>010</td>
-            <td>001</td>
+            <td>Micheal Myers</td>
             <td>Cakes</td>
               <td>
               <div class="top-section">
@@ -197,7 +197,7 @@ const Orders = () => {
             <th scope="row">11</th>
             <td>Gateau St.Honore</td>
             <td>011</td>
-            <td>001</td>
+            <td>Grace Simm</td>
             <td>Cakes</td>
               <td>
               <div class="top-section">
@@ -214,7 +214,7 @@ const Orders = () => {
             <th scope="row">12</th>
             <td>Flour Chocolate Cake</td>
             <td>012</td>
-            <td>001</td>
+            <td>Martin Garrix</td>
             <td>Cakes</td>
               <td>
               <div class="top-section">

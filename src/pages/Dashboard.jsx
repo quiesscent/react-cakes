@@ -1,6 +1,5 @@
 import React from 'react'
 import '../assets/css/nav.css'
-import '../assets/js/performancechart.js'
 
 const Dashboard = () => {
   return (
